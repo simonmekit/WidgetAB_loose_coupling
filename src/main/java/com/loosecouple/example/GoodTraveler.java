@@ -4,6 +4,12 @@ package com.loosecouple.example;
 class GoodTraveler {
 	private Vehicle v;
 
+	public GoodTraveler(){
+
+	}
+	public GoodTraveler(Vehicle v){
+		this.v = v;
+	}
 	public Vehicle getV() {
 		return v;
 	}
